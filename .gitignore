@@ -1,1 +1,8 @@
-.svn
+# Ignore all files ending with a tilde
+*~
+
+# Ignore certain folders
+Release/
+.settings/
+.svn/
+
