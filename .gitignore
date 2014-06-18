@@ -2,7 +2,6 @@
 *~
 
 # Ignore certain folders
-Release/
 .settings/
 .svn/
 
