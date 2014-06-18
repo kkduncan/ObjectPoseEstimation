@@ -53,7 +53,8 @@ namespace ope {
  */
 class BoundingBox {
 public:
-	BoundingBox() : minX(FLT_MAX), maxX(FLT_MIN), minY(FLT_MAX), maxY(FLT_MIN), minZ(FLT_MAX), maxZ(FLT_MIN), width(0), height(0), depth(0) {}
+	BoundingBox() : minX(999), maxX(-999), minY(999), maxY(-999), minZ(999), maxZ(-999), width(0), height(0), depth(0) {}
+
 	BoundingBox(float _minX, float _maxX, float _minY, float _maxY, float _minZ, float _maxZ, float _w, float _h, float _d)
 		: minX(_minX), maxX(_maxX), minY(_minY), maxY(_maxY), minZ(_minZ), maxZ(_maxZ), width(_w), height(_h), depth(_d) {}
 	
